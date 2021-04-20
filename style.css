@@ -222,7 +222,6 @@ iframe {
   max-width: 1200px;
 }
 
-
 .section-venimos {
   min-height: 70vh;
   display: flex;
@@ -230,7 +229,7 @@ iframe {
 }
 
 .phone {
-  margin-top: -250px;
+  margin-top: -200px;
   z-index: 5;
 }
 .phone-img {
