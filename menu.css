@@ -1,6 +1,4 @@
-.botonMenu
-
-{
+.botonMenu{
    margin: 0 auto;
    display: block;
    width: 30px;
@@ -13,9 +11,7 @@
    position: relative;
 }
 
-.botonMenu span
-
-{
+.botonMenu span{
    display: block;
    width: 30px;
    height: 4px;
@@ -23,18 +19,15 @@
    margin-top: 4px;
 }
 
-label
-{
+label{
    cursor: pointer;
 }
 
-#menu-toggle
-{
+#menu-toggle{
    display: none;
 }
 
-#trickMenu
-{
+#trickMenu{
    display: none;
    text-align: center;
    background: white;
@@ -47,22 +40,16 @@ label
    border-top: 0.5px solid rgba(0, 0, 0, 0.1);
 }
 
-#trickMenu li a
-
-{
+#trickMenu li a{
 
    display: block;
    padding: 10px 0;
    color: black;
-
 }
 
-#menu-toggle:checked + #trickMenu
-
-{
+#menu-toggle:checked + #trickMenu{
     position: absolute;
    display: block;
-
 }
 
 .menuHTML {
