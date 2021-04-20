@@ -1,2 +1,5 @@
-# bluedot-podcast
-Pale Blue Dot - Proyecto Acamica
+# Proyecto Acamica
+### Blue Dot Landing
+
+#######Objetivos
+
