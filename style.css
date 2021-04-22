@@ -209,7 +209,7 @@ iframe {
   }
   .section-episodios-back {
     padding: 150px 0px 200px 0px;
-    min-height: 130vh;
+    min-height: 200vh;
     width: 100%;
     background: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
     position: absolute;
