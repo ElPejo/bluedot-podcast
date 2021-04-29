@@ -163,7 +163,7 @@ ul li a:hover{
 
 .section-episodios-back {
   padding: 150px 0px 200px 0px;
-  min-height: 70vh;
+  min-height: 80vh;
   width: 100%;
   background: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   position: absolute;
@@ -172,7 +172,7 @@ ul li a:hover{
 }
 .section-episodios {
   padding: 150px 0px 200px 0px;
-  min-height: 70vh;
+  min-height: 80vh;
   position: relative;
   z-index: 4;
 }
