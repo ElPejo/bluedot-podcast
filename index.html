@@ -1,244 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BlueDot Podcast</title>
-    <link
-      rel="shortcut icon"
-      href="./img/bluedotlogo.svg"
-      type="image/x-icon"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="menu.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-    />
-  </head>
 
-  <body>
-    <header class="main-header">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlueDot Podcast</title>
+  <link rel="shortcut icon" href="./img/bluedotlogo.svg" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="menu.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="mh-logo">
+        <img src="img/bluedotlogo.svg" width="50" height="95" alt="Flexbox.ninja" />
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li class="toggle-menu">
+            <input type="checkbox" class="fas fa-bars fa-2x" />
+          </li>
+          <li><a href="#episodios">Episodios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#invitados">Entrevistas</a></li>
+          <li><a href="#topicos">Tópicos</a></li>
+        </ul>
+      </nav>
+      <div id="burger-container">
+        <input id="burger-checkbox" type="checkbox" />
+        <label for="burger-checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav id="burger-nav">
+          <ul>
+            <li><a href="#episodios">Episodios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#invitados">Entrevistas</a></li>
+            <li><a href="#topicos">Tópicos</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+  <main>
+    <div class="section section-header">
       <div class="container">
-        <div class="mh-logo">
-          <img
-            src="img/bluedotlogo.svg"
-            width="50"
-            height="95"
-            alt="Flexbox.ninja"
-          />
-        </div>
-        <nav class="main-nav">
-          <ul class="main-nav-list">
-            <li class="toggle-menu">
-              <input type="checkbox" class="fas fa-bars fa-2x" />
-            </li>
-            <li><a href="#episodios">Episodios</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#invitados">Entrevistas</a></li>
-            <li><a href="#topicos">Tópicos</a></li>
-          </ul>
-        </nav>
-        <nav class="menuHTML">
-          <label for="menu-toggle">
-            <div class="botonMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </label>
-          <input type="checkbox" id="menu-toggle" />
-          <ul id="trickMenu">
-            <li><a href="#episodios">Episodios</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#invitados">Entrevistas</a></li>
-            <li><a href="#topicos">Tópicos</a></li>
-          </ul>
-        </nav>
+        <h1 class="section-title">
+          Hello <span class="line">world</span> pale blue dot<span class="primary-color">.</span>
+        </h1>
+        <p>
+          El portal de podcasts que explora el mundo de la programacion y la
+          tecnologia. Nuevos episodios, todos los jueves cada 15 dias.
+        </p>
+        <button class="glow-on-hover">Conocé mas</button>
       </div>
-    </header>
-    <main>
-      <div class="section section-header">
-        <div class="container">
-          <h1 class="section-title">
-            Hello <span class="line">world</span> pale blue dot<span
-              class="primary-color"
-              >.</span
-            >
-          </h1>
-          <p>
-            El portal de podcasts que explora el mundo de la programacion y la
-            tecnologia. Nuevos episodios, todos los jueves cada 15 dias.
-          </p>
-          <button class="glow-on-hover">Conocé mas</button>
-        </div>
-      </div>
-      <div class="section section-episodios-back"></div>
+    </div>
+    <div class="section section-episodios-back"></div>
 
-      <div class="section section-episodios" id="episodios">
-        <div class="container">
-          <h2 class="episodios-title">Episodios</h2>
-          <div class="spotify-cards">
-            <div class="spotify-card">
-              <iframe
-                src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
-                height="232"
-                allow="encrypted-media"
-                class="iframe"
-              ></iframe>
-              <iframe
-                src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
-                height="232"
-                allow="encrypted-media"
-                class="iframe"
-              ></iframe>
-            </div>
-            <div class="spotify-card">
-              <iframe
-                src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
-                height="232"
-                allow="encrypted-media"
-                class="iframe"
-              ></iframe>
-              <iframe
-                src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
-                height="232"
-                allow="encrypted-media"
-                class="iframe"
-              ></iframe>
-            </div>
+    <div class="section section-episodios" id="episodios">
+      <div class="container">
+        <h2 class="episodios-title">Episodios</h2>
+        <div class="spotify-cards">
+          <div class="spotify-card">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" height="232"
+              allow="encrypted-media" class="iframe"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" height="232"
+              allow="encrypted-media" class="iframe"></iframe>
+          </div>
+          <div class="spotify-card">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" height="232"
+              allow="encrypted-media" class="iframe"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" height="232"
+              allow="encrypted-media" class="iframe"></iframe>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="section section-venimos" id="nosotros">
-        <div class="container flex">
-          <div class="phone col-6">
-            <img class="phone-img" src="img/phone.png" alt="" />
-          </div>
-          <div class="col-6">
-            <div class="phone-text">
-              <h2>De dónde venimos</h2>
-              <br />
-              <p>
-                Our posturings, our imagined self-importance, the delusion that
-                we have some privileged position in the Universe, are challenged
-                by this point of pale light.
-              </p>
-              <br />
-              <p>
-                Our planet is a lonely speck in the great enveloping cosmic
-                dark. In our obscurity, in all this vastness, there is no hint
-                that help will come from elsewhere to save us from ourselves.
-              </p>
-            </div>
+    <div class="section section-venimos" id="nosotros">
+      <div class="container flex">
+        <div class="phone col-6">
+          <img class="phone-img" src="img/phone.png" alt="" />
+        </div>
+        <div class="col-6">
+          <div class="phone-text">
+            <h2>De dónde venimos</h2>
+            <br />
+            <p>
+              Our posturings, our imagined self-importance, the delusion that
+              we have some privileged position in the Universe, are challenged
+              by this point of pale light.
+            </p>
+            <br />
+            <p>
+              Our planet is a lonely speck in the great enveloping cosmic
+              dark. In our obscurity, in all this vastness, there is no hint
+              that help will come from elsewhere to save us from ourselves.
+            </p>
           </div>
         </div>
       </div>
-      <div class="container"><h2>Invitadas/os estelares</h2></div>
-      <div class="section" id="invitados">
-        <div class="guest-container">
-          <div class="guest-img-container">
-            <img src="./img/grace-hopper.png" alt="grace-hopper" />
-          </div>
+    </div>
+    <div class="container">
+      <h2>Invitadas/os estelares</h2>
+    </div>
+    <div class="section" id="invitados">
+      <div class="guest-container">
+        <div class="guest-img-container">
+          <img src="./img/grace-hopper.png" alt="grace-hopper" />
+        </div>
 
-          <div class="guest-img-container">
-            <img src="img/Katie-Bouman.png" alt="Katie-Bouman" />
-          </div>
-          <div class="guest-img-container">
-            <img src="img/Margaret_Hamilton.png" alt="Margaret-Hamilton" />
-          </div>
+        <div class="guest-img-container">
+          <img src="img/Katie-Bouman.png" alt="Katie-Bouman" />
+        </div>
+        <div class="guest-img-container">
+          <img src="img/Margaret_Hamilton.png" alt="Margaret-Hamilton" />
+        </div>
 
-          <div class="guest-img-container">
-            <img src="img/susan-kare.png" alt="susan-kare" />
-          </div>
+        <div class="guest-img-container">
+          <img src="img/susan-kare.png" alt="susan-kare" />
+        </div>
 
-          <div class="guest-img-container">
-            <img src="img/eniac.png" alt="eniac" />
-          </div>
+        <div class="guest-img-container">
+          <img src="img/eniac.png" alt="eniac" />
+        </div>
 
-          <div class="guest-img-container">
-            <img src="img/univac.png" alt="univac" />
+        <div class="guest-img-container">
+          <img src="img/univac.png" alt="univac" />
+        </div>
+      </div>
+    </div>
+
+    <div class="section topics" id="topicos">
+      <div class="container">
+        <h2>Algunos de nuestros temas</h2>
+        <div class="topics-container">
+          <div class="topic">
+            <img src="img/remoto.svg" alt="Trabajo-Remoto" />
+            <p>Trabajo remoto</p>
+          </div>
+          <div class="topic">
+            <img src="img/repensando.svg" alt="Programación" />
+            <p>Repensando la programación</p>
+          </div>
+          <div class="topic">
+            <img src="img/basedelcodigo.svg" alt="Código" />
+            <p>Bases del código</p>
+          </div>
+          <div class="topic">
+            <img src="img/seguridad.svg" alt="Seguridad" />
+            <p>Seguridad informatica</p>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="section topics" id="topicos">
-        <div class="container">
-          <h2>Algunos de nuestros temas</h2>
-          <div class="topics-container">
-            <div class="topic">
-              <img src="img/remoto.svg" alt="Trabajo-Remoto" />
-              <p>Trabajo remoto</p>
-            </div>
-            <div class="topic">
-              <img src="img/repensando.svg" alt="Programación" />
-              <p>Repensando la programación</p>
-            </div>
-            <div class="topic">
-              <img src="img/basedelcodigo.svg" alt="Código" />
-              <p>Bases del código</p>
-            </div>
-            <div class="topic">
-              <img src="img/seguridad.svg" alt="Seguridad" />
-              <p>Seguridad informatica</p>
-            </div>
-          </div>
-        </div>
+    <div class="section novedades">
+      <div class="novedades-background1"></div>
+      <div class="novedades-background"></div>
+      <h2>¿Querés las últimas novedades?</h2>
+      <button class="glow-on-hover">ESCUCHÁ LOS ESPISODIOS</button>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="social">
+      <p>© 2019-Hello blue pale dot</p>
+      <div class="footer-icons">
+        <a class="social-link" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"
+            id="instagram"></i></a>
+        <a class="social-link" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"
+            id="facebook"></i></a>
+        <a class="social-link" href="https://www.spotify.com/ar/" target="_blank"><i class="fab fa-spotify fa-2x"
+            id="spotify"></i></a>
+        <a class="social-link" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"
+            id="twitter"></i></a>
+        <a class="social-link" href="https://web.telegram.org/" target="_blank"><i class="fab fa-telegram fa-2x"
+            id="telegram"></i></a>
       </div>
+    </div>
+  </footer>
+</body>
 
-      <div class="section novedades">
-        <div class="novedades-background1"></div>
-        <div class="novedades-background"></div>
-        <h2>¿Querés las últimas novedades?</h2>
-        <button class="glow-on-hover">ESCUCHÁ LOS ESPISODIOS</button>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="social">
-        <p>© 2019-Hello blue pale dot</p>
-        <div class="footer-icons">
-          <a
-            class="social-link"
-            href="https://www.instagram.com/"
-            target="_blank"
-            ><i class="fab fa-instagram fa-2x" id="instagram"></i
-          ></a>
-          <a
-            class="social-link"
-            href="https://www.facebook.com/"
-            target="_blank"
-            ><i class="fab fa-facebook fa-2x" id="facebook"></i
-          ></a>
-          <a
-            class="social-link"
-            href="https://www.spotify.com/ar/"
-            target="_blank"
-            ><i class="fab fa-spotify fa-2x" id="spotify"></i
-          ></a>
-          <a class="social-link" href="https://twitter.com/" target="_blank"
-            ><i class="fab fa-twitter fa-2x" id="twitter"></i
-          ></a>
-          <a
-            class="social-link"
-            href="https://web.telegram.org/"
-            target="_blank"
-            ><i class="fab fa-telegram fa-2x" id="telegram"></i
-          ></a>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>

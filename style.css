@@ -5,6 +5,7 @@
   border: 0;
   list-style: none;
   font-family: "IBM Plex Mono", monospace;
+  box-sizing: border-box;
 }
 .logo-container{
   width: 600px;
@@ -188,7 +189,13 @@ ul li a:hover{
 iframe {
   margin-top: 20px;
 }
+#burger-container {
+  display: none;
+}
 @media (max-width: 768px) {
+  #burger-container {
+    display: block;
+  }
   .section-episodios {
     padding: 150px 0px 200px 0px;
     min-height: 70vh;
